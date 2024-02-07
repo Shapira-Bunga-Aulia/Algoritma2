@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTV-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<body>
+    <script>
+    //     codingan no 1 nonton bioskop
+        let umur= 18 ;
+
+       if (umur>17) {
+       console.log ("boleh menonton")
+       }
+
+       else
+       console.log("tidak boleh menonton...")
+
+    // Codingan no 2 ganjil genap positif negatif
+        let angka= -2 ;
+
+        if (angka>=0) {
+            console.log ("positif");
+
+            if (angka%2==0) {
+            console.log ("Genap");
+        }
+
+             else {
+            console.log ("Ganjil");
+        }
+
+        }
+
+
+        else {
+            console.log ("Negatif");
+
+            if (angka%2==0) {
+                console.log ("Genap");
+            }
+
+            else {
+                console.log ("Ganjil");
+            }
+        }
+
+
+    //     codingan no 3 lampu
+        let lampu= 1;
+
+        if (lampu>=1) {
+            console.log ("on")
+        }
+
+        else
+        console.log ("Off")
+
+        // Codingan no 4 harga diskon
+        let sendok = 9000
+        let garpu = 50000
+        let piring = 100000
+
+        let totalHarga = sendok + garpu + piring
+
+        if (totalHarga > 100000) {
+            let diskon = 10/100 * totalHarga;
+            let setelahDiskon = totalHarga - diskon;
+            console.log("Jadi total yang dibayar adalah" + setelahDiskon)
+        }
+
+        else {
+            console.log("Harga total barang adalah" + totalHarga)
+        }
+
+    //     Codingan no 5 jam lembur
+           let jam=7
+
+           if(jam<6){
+            console.log("100000")
+           }
+
+           else if (jam==6){
+            console.log("200000")
+           }
+
+           else if (jam>6){
+            console.log("300000")
+           }
+
+           else
+           console.log("0")
+
+    //     Codingan no 6 tinggi air
+        let tinggiAir = 500;
+        let status ;
+
+        if(tinggiAir <=500) {
+            status ="status aman";
+        }
+
+        else if (tinggiAir <=600) {
+            status ="status waspada";
+        }
+
+        else if (tinggiAir <=650) {
+            status="status siaga 2";
+        }
+
+        else if (tinggiAir > 650) {
+            status="status siaga 1";
+        }
+
+        else {
+            status="selesai";
+        }
+
+        console.log(tinggiAir);
+        console.log(status);
+
+
+    </script>
+</body>
+</html>
